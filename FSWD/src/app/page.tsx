@@ -1,3 +1,4 @@
+import StructuredData from "@/components/StructuredData";
 import BreakingTicker from "@/components/BreakingTicker";
 import FloatingCta from "@/components/FloatingCta";
 import Footer from "@/components/Footer";
@@ -15,6 +16,7 @@ import ClosingCta from "@/components/sections/ClosingCta";
 export default function Home() {
   return (
     <main>
+      <StructuredData />
       <BreakingTicker />
       <StickyHeader />
       <FloatingCta />

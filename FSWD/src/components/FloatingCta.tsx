@@ -69,7 +69,7 @@ export default function FloatingCta() {
           href="#register"
           className="cta-gradient cta-magnetic flex items-center gap-1.5 rounded-full px-5 py-2.5 text-sm font-bold text-white whitespace-nowrap"
         >
-          Register free
+          {WEBINAR_CONFIG.cta}
           <ArrowRight className="h-4 w-4" />
         </a>
       </div>

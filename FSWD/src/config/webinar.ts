@@ -2,11 +2,37 @@
 // NOTE: verify every stat/quote in `receipts` against current sources before launch —
 // this page's credibility rests on the numbers being real.
 
+// One CTA, used everywhere. Change it here and it changes across the whole page —
+// consistent wording reinforces a single action instead of reading like different offers.
+const CTA = "Grab my free seat";
+
+// Public URL of the deployed page. Set NEXT_PUBLIC_SITE_URL in production.
+// Used for canonical URLs, Open Graph/Twitter image URLs, and JSON-LD structured data.
+export const SITE_URL = (
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://codeforindia.com"
+).replace(/\/$/, "");
+
 export const WEBINAR_CONFIG = {
+  cta: CTA,
+  siteUrl: SITE_URL,
+
   meta: {
     title: "The AI Boomerang: Free Live Webinar | Code for India Foundation",
     description:
       "They fired thousands for AI. Now they're rehiring. A free 1-hour live session by Code for India Foundation on what IBM, Ford and Klarna hire for now, and how you get there from zero.",
+    keywords: [
+      "AI jobs webinar",
+      "software engineering careers India",
+      "AI rehiring",
+      "junior developer jobs AI",
+      "full stack developer roadmap",
+      "free coding webinar",
+      "Code for India Foundation",
+      "AI boomerang hiring",
+      "entry level tech jobs 2026",
+    ],
+    ogImageAlt:
+      "The AI Boomerang — free live webinar by Code for India. They fired thousands for AI. Now they're rehiring.",
   },
 
   brand: {
@@ -24,7 +50,7 @@ export const WEBINAR_CONFIG = {
     punch: "They fired thousands for AI. Now they're rehiring.",
     invite:
       "A free, live, one-hour broadcast on the biggest plot twist in tech hiring, and exactly how you ride it in. No recording-only fluff. You, us, and the receipts.",
-    ctaText: "Grab my free seat",
+    ctaText: CTA,
     scrollCue: "See the receipts",
     chips: [
       { logo: "ibm", top: "Cut 8,000 jobs for AI", punch: "Hiring went UP" },
@@ -124,7 +150,7 @@ prices.sort((a, b) => a - b);
 const cheapest = prices[0]; // 5 ✓`,
       },
     },
-    ctaText: "I want this: take me to the form",
+    ctaText: CTA,
   },
 
   speaker: {
@@ -140,7 +166,7 @@ const cheapest = prices[0]; // 5 ✓`,
       "Mentored 1,000+ people breaking into tech",
       "Govt. of Telangana accredited course architect",
     ],
-    ctaText: "Reserve my seat",
+    ctaText: CTA,
   },
 
   agenda: {
@@ -156,9 +182,10 @@ const cheapest = prices[0]; // 5 ✓`,
   },
 
   details: {
-    dateLabel: "Sunday, 4 July",
+    dateLabel: "Wednesday, 8 July",
     timeLabel: "6:00 – 7:00 PM IST",
-    countdownDateStr: "2026-07-04T18:00:00+05:30",
+    countdownDateStr: "2026-07-08T18:00:00+05:30",
+    endDateStr: "2026-07-08T19:00:00+05:30",
     platform: "Live interactive broadcast (link sent on registration)",
   },
 
@@ -170,7 +197,7 @@ const cheapest = prices[0]; // 5 ✓`,
       email: "Email",
       phone: "WhatsApp number (for the join link)",
     },
-    submitText: "Register free",
+    submitText: CTA,
     successTitle: "You're in.",
     successBody: "Check your email: your join link and calendar invite are on the way.",
   },
@@ -203,7 +230,7 @@ const cheapest = prices[0]; // 5 ✓`,
 
   closing: {
     quote: "Everyone can prompt. Companies pay for the person who knows when the AI is wrong.",
-    ctaText: "Lock my free seat",
+    ctaText: CTA,
   },
 };
 

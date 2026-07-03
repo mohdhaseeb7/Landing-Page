@@ -48,7 +48,7 @@ export default function Faq() {
           href="#register"
           className="mt-10 inline-flex items-center gap-2 font-semibold text-primary hover:text-primary-dark"
         >
-          Convinced? Grab a seat
+          {WEBINAR_CONFIG.cta}
           <ArrowRight className="h-4 w-4" />
         </a>
       </div>
