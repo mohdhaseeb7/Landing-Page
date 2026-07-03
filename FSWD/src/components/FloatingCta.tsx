@@ -67,7 +67,7 @@ export default function FloatingCta() {
         </span>
         <a
           href="#register"
-          className="cta-gradient cta-magnetic flex items-center gap-1.5 rounded-full px-5 py-2.5 text-sm font-bold text-white"
+          className="cta-gradient cta-magnetic flex items-center gap-1.5 rounded-full px-5 py-2.5 text-sm font-bold text-white whitespace-nowrap"
         >
           Register free
           <ArrowRight className="h-4 w-4" />

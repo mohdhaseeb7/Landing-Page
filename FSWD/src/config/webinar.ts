@@ -4,15 +4,15 @@
 
 export const WEBINAR_CONFIG = {
   meta: {
-    title: "The AI Boomerang — Free Live Webinar | Code for India Foundation",
+    title: "The AI Boomerang: Free Live Webinar | Code for India Foundation",
     description:
-      "They fired thousands for AI. Now they're rehiring. A free 1-hour live session by Code for India Foundation on what IBM, Ford and Klarna hire for now — and how you get there from zero.",
+      "They fired thousands for AI. Now they're rehiring. A free 1-hour live session by Code for India Foundation on what IBM, Ford and Klarna hire for now, and how you get there from zero.",
   },
 
   brand: {
     name: "The AI Boomerang",
     shortName: "FSWD Webinar",
-    org: "Code for India Foundation",
+    org: "Code for India",
     orgUrl: "https://codeforindia.com",
     logo: "/cfi-logo.png",
   },
@@ -23,12 +23,12 @@ export const WEBINAR_CONFIG = {
     titleBottom: "Boomerang",
     punch: "They fired thousands for AI. Now they're rehiring.",
     invite:
-      "A free, live, one-hour broadcast on the biggest plot twist in tech hiring — and exactly how you ride it in. No recording-only fluff. You, us, and the receipts.",
+      "A free, live, one-hour broadcast on the biggest plot twist in tech hiring, and exactly how you ride it in. No recording-only fluff. You, us, and the receipts.",
     ctaText: "Grab my free seat",
     scrollCue: "See the receipts",
     chips: [
       { logo: "ibm", top: "Cut 8,000 jobs for AI", punch: "Hiring went UP" },
-      { logo: "ford", top: "“Half of white-collar work” — CEO", punch: "Still hiring engineers" },
+      { logo: "ford", top: "“Half of white-collar work,” CEO", punch: "Still hiring engineers" },
       { logo: "klarna", top: "Went AI-first on support", punch: "Rehiring humans" },
     ],
   },
@@ -36,19 +36,19 @@ export const WEBINAR_CONFIG = {
   // who's behind this — split out of the hero into its own beat
   about: {
     kicker: "Who's behind this",
-    titlePre: "Free tech education.",
-    titleGradient: "For all of India.",
-    body: "We're Code for India Foundation — a non-profit that teaches Indians to build real software, from zero. No paywalls, no fine print. This webinar is one of the free things we do.",
+    titlePre: "Building India's",
+    titleGradient: "Next Generation of Developers",
+    body: "We're Code for India Foundation, a non-profit making quality tech education accessible to everyone. Whether you're starting from scratch or changing careers, we help you build practical software development skills. No paywalls. No fine print. This webinar is one of the free ways we support learners.",
     stats: [
-      { value: "12,000+", label: "Indians taught to code" },
-      { value: "₹0", label: "free. always. no catch." },
-      { value: "1,000+", label: "mentored into tech jobs" },
+      { value: "1,000+", label: "Learners empowered across India" },
+      { value: "₹0", label: "Webinar is free. No hidden fees." },
+      { value: "1,000+", label: "Students guided into tech careers" },
     ],
   },
 
   receipts: {
     title: "The receipts",
-    subtitle: "Not predictions. Already happened.",
+    subtitle: "No Predictions. Only Results.",
     cards: [
       {
         company: "IBM",
@@ -57,7 +57,7 @@ export const WEBINAR_CONFIG = {
         stat: 94,
         suffix: "%",
         headline: "of routine HR work automated. Total employment went UP.",
-        body: "AskHR absorbed the routine work of ~8,000 roles. Then IBM's CEO said the quiet part out loud: they ended up hiring MORE people — engineers and salespeople, not fewer.",
+        body: "AskHR absorbed the routine work of ~8,000 roles. Then IBM's CEO said the quiet part out loud: they ended up hiring MORE people (specifically engineers and salespeople), not fewer.",
       },
       {
         company: "Ford",
@@ -65,7 +65,7 @@ export const WEBINAR_CONFIG = {
         source: "CEO Jim Farley, Aspen Ideas Festival · 2025",
         stat: 50,
         suffix: "%",
-        headline: "of white-collar work at risk — his words, not ours.",
+        headline: "of white-collar work at risk (his words, not ours).",
         body: "Farley forecast AI replacing “literally half” of white-collar workers in the U.S. Meanwhile Ford keeps hiring the engineers who can check the machine's work.",
       },
       {
@@ -79,11 +79,11 @@ export const WEBINAR_CONFIG = {
       },
     ],
     ticker: [
-      "Klarna — resumed human hiring after AI-first support backfired",
-      "CBA — reversed chatbot layoffs",
-      "Salesforce — rebalanced support roles after Agentforce",
-      "Duolingo — walked back “AI-first” messaging",
-      "IBM — headcount up post-automation",
+      "Klarna: resumed human hiring after AI-first support backfired",
+      "CBA: reversed chatbot layoffs",
+      "Salesforce: rebalanced support roles after Agentforce",
+      "Duolingo: walked back “AI-first” messaging",
+      "IBM: headcount up post-automation",
     ],
   },
 
@@ -99,14 +99,14 @@ export const WEBINAR_CONFIG = {
     subtitle: "This is an info session, not a course. No homework. Just the map.",
     items: [
       { text: "Exactly which skills the boomerang companies are paying for right now" },
-      { text: "Why AI code breaks in production — and how you catch it in seconds" },
+      { text: "Why AI code breaks in production, and how you catch it in seconds" },
       { text: "The full-stack map: what actually happens between a click and a database" },
       { text: "A 90-day zero-to-interview roadmap you can start tonight" },
-      { text: "Live Q&A — bring your panic, leave with a plan" },
+      { text: "Live Q&A: bring your panic, leave with a plan" },
     ],
     codeDemo: {
       caption:
-        "Real example we'll break down live. The AI version runs fine — until the numbers matter.",
+        "Real example we'll break down live. The AI version runs fine, until the numbers matter.",
       before: {
         label: "AI-generated",
         code: `// "Sort prices, find the cheapest"
@@ -124,7 +124,7 @@ prices.sort((a, b) => a - b);
 const cheapest = prices[0]; // 5 ✓`,
       },
     },
-    ctaText: "I want this — take me to the form",
+    ctaText: "I want this: take me to the form",
   },
 
   speaker: {
@@ -132,9 +132,9 @@ const cheapest = prices[0]; // 5 ✓`,
     sectionTitle: "The person walking you through it",
     name: "Omer Ahmed Quadri",
     role: "Full Stack Engineer · Code for India Foundation",
-    photoUrl: "/instructor-photo.jpg",
+    photoUrl: "/instructor-photo.png",
     badge: "Live host",
-    bio: "Omer has spent 5+ years shipping production code and reviewing AI-generated pull requests — he's seen exactly where they break. This isn't a lecture. He's walking you through what the rehiring pattern means for someone starting out right now, with receipts from real codebases.",
+    bio: "Omer has spent 5+ years shipping production code and reviewing AI-generated pull requests. He's seen exactly where they break. This isn't a lecture. He's walking you through what the rehiring pattern means for someone starting out right now, with receipts from real codebases.",
     credentials: [
       "5+ years professional full-stack experience",
       "Mentored 1,000+ people breaking into tech",
@@ -146,7 +146,7 @@ const cheapest = prices[0]; // 5 ✓`,
   agenda: {
     title: "The hour, minute by minute",
     items: [
-      { time: "6:00", title: "The boomerang, decoded", detail: "IBM, Ford, Klarna — what actually happened, and what it signals." },
+      { time: "6:00", title: "The boomerang, decoded", detail: "IBM, Ford, Klarna: what actually happened, and what it signals." },
       { time: "6:10", title: "What AI genuinely can't do", detail: "Where models fail in real codebases, with examples." },
       { time: "6:20", title: "The fundamentals stack", detail: "The mental model that separates prompt-typers from engineers." },
       { time: "6:35", title: "Live: fixing AI's code", detail: "We debug a real AI-generated snippet, step by step." },
@@ -159,7 +159,7 @@ const cheapest = prices[0]; // 5 ✓`,
     dateLabel: "Sunday, 4 July",
     timeLabel: "6:00 – 7:00 PM IST",
     countdownDateStr: "2026-07-04T18:00:00+05:30",
-    platform: "Live interactive broadcast — link sent on registration",
+    platform: "Live interactive broadcast (link sent on registration)",
   },
 
   form: {
@@ -172,7 +172,7 @@ const cheapest = prices[0]; // 5 ✓`,
     },
     submitText: "Register free",
     successTitle: "You're in.",
-    successBody: "Check your email — your join link and calendar invite are on the way.",
+    successBody: "Check your email: your join link and calendar invite are on the way.",
   },
 
   faq: {
@@ -180,15 +180,15 @@ const cheapest = prices[0]; // 5 ✓`,
     items: [
       {
         q: "Is this actually free?",
-        a: "Yes. No card, no trial, no upsell mid-session. At the end we'll mention our full course for those who want to go deeper — that part takes two minutes and skipping it costs you nothing.",
+        a: "Yes. No card, no trial, no upsell mid-session. At the end we'll mention our full course for those who want to go deeper: that part takes two minutes and skipping it costs you nothing.",
       },
       {
         q: "I've never written code. Will I be lost?",
-        a: "No. The session is built for students and early-career folks. The live debugging segment is explained line by line — the point is to show you what fundamentals look like, not to test you on them.",
+        a: "No. The session is built for students and early-career folks. The live debugging segment is explained line by line. The point is to show you what fundamentals look like, not to test you on them.",
       },
       {
         q: "Will there be a recording?",
-        a: "Yes, sent to everyone who registers — even if you can't attend live. But the Q&A only works if you're in the room.",
+        a: "Yes, sent to everyone who registers, even if you can't attend live. But the Q&A only works if you're in the room.",
       },
       {
         q: "Is the 'AI is rehiring' thing real, or a hook?",

@@ -108,16 +108,21 @@ export default function Hero() {
         <StoryChip chip={hero.chips[2]} rot="-2deg" delay="2.8s" className="absolute bottom-16 left-10 hidden w-52 text-left lg:block" />
 
         <div className="max-w-4xl">
-          <p className={`font-display text-sm font-semibold uppercase tracking-[0.3em] text-muted ${reveal("delay-0")}`}>
-            {hero.presents}
+          <p className={`${reveal("delay-0")} text-muted/90 flex items-center justify-center flex-wrap gap-x-2 gap-y-1`}>
+            <span className="font-serif-display text-2xl sm:text-3xl tracking-normal normal-case">
+              Code <span className="italic">for</span> India
+            </span>
+            <span className="font-segoe font-bold text-xl sm:text-2xl normal-case">
+              presents
+            </span>
           </p>
 
           <h1
-            className={`mt-6 leading-[0.9] ${reveal("delay-75")}`}
+            className={`mt-6 leading-[0.95] ${reveal("delay-75")}`}
             style={{ fontSize: "clamp(4rem, 12vw, 10rem)" }}
           >
             <span className="block">{hero.titleTop}</span>
-            <span className="text-gradient block">{hero.titleBottom}</span>
+            <span className="text-gradient block pb-[0.15em] -mb-[0.15em]">{hero.titleBottom}</span>
           </h1>
 
           <p className={`font-display mt-8 text-2xl font-bold text-foreground sm:text-3xl ${reveal("delay-150")}`}>

@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=DM+Serif+Display:ital@0;1&display=swap');
 @import "tailwindcss";
 
 /* Brand tokens shared with the parent CFI-Webinar project */
 :root {
   --font-display: 'Bricolage Grotesque', sans-serif;
+  --font-serif-display: 'DM Serif Display', serif;
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
 
@@ -33,6 +34,7 @@
   --color-star: var(--color-star);
 
   --font-display: var(--font-display);
+  --font-serif-display: var(--font-serif-display);
   --font-sans: var(--font-sans);
 }
 
@@ -49,6 +51,14 @@ h1, h2, h3, h4, h5, h6,
   font-weight: 800;
   letter-spacing: -0.02em;
   line-height: 1.05;
+}
+
+.font-serif-display {
+  font-family: var(--font-serif-display);
+}
+
+.font-segoe {
+  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
 }
 
 /* Gradient headline text — same recipe as the parent site */

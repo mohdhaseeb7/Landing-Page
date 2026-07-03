@@ -64,8 +64,8 @@ export default function Receipts() {
               } as React.CSSProperties
             }
           >
-            Not predictions.{" "}
-            <span className="text-gradient block">Already happened.</span>
+            No Predictions.{" "}
+            <span className="text-gradient block">Only Results.</span>
           </h2>
         </div>
 

@@ -34,7 +34,7 @@ export default function StickyHeader() {
         </div>
         <a
           href="#register"
-          className="rounded-full bg-primary px-5 py-2 text-sm font-semibold text-white transition-colors hover:bg-primary-dark"
+          className="rounded-full bg-primary px-5 py-2 text-sm font-semibold text-white transition-colors hover:bg-primary-dark whitespace-nowrap"
         >
           Register free
         </a>

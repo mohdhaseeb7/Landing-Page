@@ -1,0 +1,11 @@
+{
+  "name": "landing-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix FSWD",
+    "build": "npm run build --prefix FSWD",
+    "start": "npm run start --prefix FSWD",
+    "lint": "npm run lint --prefix FSWD"
+  }
+}
